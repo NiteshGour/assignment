@@ -15,10 +15,10 @@ class Test_callable(details, Base_custome_logger):
 
         if 90 >= USAGE[1]:
             assert True
-            log.info("Memory size is" + str(USAGE[1]))
+            log.info("Memory size is - " + str(USAGE[1]))
             log.info("Memory is in the range")
 
         else:
             log.info("High memory usage")
-            log.info("Memory size is" + str(USAGE[1]))
+            log.info("Memory size is - " + str(USAGE[1]))
             assert False

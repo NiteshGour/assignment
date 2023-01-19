@@ -1,0 +1,12 @@
+The CPU usage is:  3.1
+The CPU usage is :  0.0
+RAM memory % used: 39.0
+RAM Used (GB): 13.269417984
+Time now at greenwich meridian is: 2023-01-19 18:18:09.830300
+svmem(total=33998262272, available=20728844288, percent=39.0, used=13269417984, free=20728844288)
+The CPU usage is:  3.1
+The CPU usage is :  0.0
+RAM memory % used: 39.0
+RAM Used (GB): 13.256830976
+Time now at greenwich meridian is: 2023-01-19 18:18:13.845367
+svmem(total=33998262272, available=20741451776, percent=39.0, used=13256810496, free=20741451776)

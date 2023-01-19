@@ -1,16 +1,9 @@
-2023-01-19 16:40:59,530 : INFO : test_callable : Memory file execution is started
-2023-01-19 16:41:07,999 : INFO : test_callable : High memory usage
-2023-01-19 16:44:36,386 : INFO : test_callable : Memory file execution is started
-2023-01-19 16:44:44,827 : INFO : test_callable : High memory usage
-2023-01-19 16:57:13,208 : INFO : test_callable : Memory file execution is started
-2023-01-19 16:57:21,925 : INFO : test_callable : High memory usage
-2023-01-19 16:59:39,119 : INFO : test_callable : Memory file execution is started
-2023-01-19 17:00:32,616 : INFO : test_callable : Memory file execution is started
-2023-01-19 17:00:41,053 : INFO : test_callable : Memory size is88.6
-2023-01-19 17:00:41,054 : INFO : test_callable : Memory is in the range
-2023-01-19 17:00:53,287 : INFO : test_callable : Memory file execution is started
-2023-01-19 17:01:01,934 : INFO : test_callable : Memory size is88.5
-2023-01-19 17:01:01,935 : INFO : test_callable : Memory is in the range
-2023-01-19 17:28:15,158 : INFO : test_callable : Memory file execution is started
-2023-01-19 17:28:23,739 : INFO : test_callable : Memory size is34.2
-2023-01-19 17:28:23,740 : INFO : test_callable : Memory is in the range
+2023-01-19 18:15:05,745 : INFO : test_callable : Memory file execution is started
+2023-01-19 18:15:14,226 : INFO : test_callable : Memory size is - 39.0
+2023-01-19 18:15:14,226 : INFO : test_callable : Memory is in the range
+2023-01-19 18:17:19,384 : INFO : test_callable : Memory file execution is started
+2023-01-19 18:17:28,027 : INFO : test_callable : Memory size is - 39.0
+2023-01-19 18:17:28,027 : INFO : test_callable : Memory is in the range
+2023-01-19 18:18:05,241 : INFO : test_callable : Memory file execution is started
+2023-01-19 18:18:13,851 : INFO : test_callable : Memory size is - 39.0
+2023-01-19 18:18:13,851 : INFO : test_callable : Memory is in the range
