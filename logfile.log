@@ -1,9 +1,0 @@
-2023-01-19 18:15:05,745 : INFO : test_callable : Memory file execution is started
-2023-01-19 18:15:14,226 : INFO : test_callable : Memory size is - 39.0
-2023-01-19 18:15:14,226 : INFO : test_callable : Memory is in the range
-2023-01-19 18:17:19,384 : INFO : test_callable : Memory file execution is started
-2023-01-19 18:17:28,027 : INFO : test_callable : Memory size is - 39.0
-2023-01-19 18:17:28,027 : INFO : test_callable : Memory is in the range
-2023-01-19 18:18:05,241 : INFO : test_callable : Memory file execution is started
-2023-01-19 18:18:13,851 : INFO : test_callable : Memory size is - 39.0
-2023-01-19 18:18:13,851 : INFO : test_callable : Memory is in the range

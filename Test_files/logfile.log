@@ -1,9 +1,12 @@
-2023-01-18 19:01:01,691 : INFO : test_callable : Memory file execution is started
-2023-01-18 19:03:10,671 : INFO : test_callable : Memory file execution is started
-2023-01-18 19:03:19,767 : INFO : test_callable : Memory is in the range
-2023-01-18 19:06:19,925 : INFO : test_callable : Memory file execution is started
-2023-01-18 19:06:29,058 : INFO : test_callable : Memory is in the range
-2023-01-19 11:50:45,083 : INFO : test_callable : Memory file execution is started
-2023-01-19 11:50:53,902 : INFO : test_callable : Memory is in the range
-2023-01-19 16:36:30,827 : INFO : test_callable : Memory file execution is started
-2023-01-19 16:36:39,727 : INFO : test_callable : High memory usage
+2023-01-19 21:10:56,333 : INFO : test_callable : Memory file execution is started
+2023-01-19 21:11:00,799 : INFO : test_callable : ssh connection of vm
+2023-01-19 21:11:01,084 : INFO : test_callable : ssh connection establish
+2023-01-19 21:11:05,100 : INFO : test_callable : Memory size is - 48.0
+2023-01-19 21:11:05,101 : INFO : test_callable : Memory is in the range
+2023-01-19 21:11:05,101 : INFO : test_callable : Successfully execution
+2023-01-19 21:12:02,664 : INFO : test_callable : Memory file execution is started
+2023-01-19 21:12:07,115 : INFO : test_callable : ssh connection of vm
+2023-01-19 21:12:07,387 : INFO : test_callable : ssh connection establish
+2023-01-19 21:12:11,406 : INFO : test_callable : Memory size in % is - 48.0
+2023-01-19 21:12:11,406 : INFO : test_callable : Memory is in the range
+2023-01-19 21:12:11,406 : INFO : test_callable : Successfully execution

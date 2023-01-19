@@ -1,5 +1,7 @@
 # Importing the library
 import os
+
+import paramiko
 import psutil
 import datetime
 from psutil import virtual_memory
@@ -28,7 +30,19 @@ class details:
 
         # for memory details
         mem = virtual_memory()
-        psutil.virtual_memory().total
+        var = psutil.virtual_memory().total
         print(mem)
 
         return cpu_usage, ram_usage
+
+    def vm_connection(self):
+        host = "192.168.1.9"
+        username = "nick"
+        password = "12345"
+
+        client = paramiko.client.SSHClient()
+        client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+        client.connect(host, username=username, password=password)
+        _stdin, _stdout, _stderr = client.exec_command("df")
+        print(_stdout.read().decode())
+        client.close()
