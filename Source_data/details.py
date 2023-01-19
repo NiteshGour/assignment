@@ -3,9 +3,6 @@ import os
 import psutil
 import datetime
 from psutil import virtual_memory
-from Utils.custom_logger import LogGen
-
-#logger = LogGen.loggen()
 
 
 class details:
@@ -20,6 +17,7 @@ class details:
         print("The CPU usage is : ", cpu_usage)
 
         # Getting % usage of virtual_memory
+        ram_usage = psutil.virtual_memory()[2]
         print('RAM memory % used:', psutil.virtual_memory()[2])
         # Getting usage of virtual_memory in GB
         print('RAM Used (GB):', psutil.virtual_memory()[3] / 1000000000)
@@ -33,4 +31,4 @@ class details:
         psutil.virtual_memory().total
         print(mem)
 
-        return cpu_usage
+        return cpu_usage, ram_usage
