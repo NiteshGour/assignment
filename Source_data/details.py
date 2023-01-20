@@ -5,10 +5,11 @@ import paramiko
 import psutil
 import datetime
 from psutil import virtual_memory
+import allure
 
 
 class details:
-
+    @allure.step
     def memory_display(self):
         # Calling psutil.cpu_present() for 4 seconds
         print('The CPU usage in % is: ', psutil.cpu_percent(4))
@@ -35,6 +36,7 @@ class details:
 
         return cpu_usage, ram_usage
 
+    @allure.step
     def vm_connection(self):
         host = "192.168.1.9"
         username = "nick"

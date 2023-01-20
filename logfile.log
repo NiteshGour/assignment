@@ -1,6 +1,6 @@
-2023-01-20 14:31:59,900 : INFO : test_callable : Memory file execution is started
-2023-01-20 14:32:04,296 : INFO : test_callable : ssh connection of vm
-2023-01-20 14:32:04,586 : INFO : test_callable : ssh connection establish
-2023-01-20 14:32:08,599 : INFO : test_callable : Memory size in % is - 50.1
-2023-01-20 14:32:08,599 : INFO : test_callable : Memory is in the range
-2023-01-20 14:32:08,600 : INFO : test_callable : Successfully execution
+2023-01-20 21:01:28,081 : INFO : test_callable : Memory file execution is started
+2023-01-20 21:01:32,659 : INFO : test_callable : ssh connection of vm
+2023-01-20 21:01:32,922 : INFO : test_callable : ssh connection establish
+2023-01-20 21:01:36,938 : INFO : test_callable : Memory size in % is - 53.2
+2023-01-20 21:01:36,938 : INFO : test_callable : Memory is in the range
+2023-01-20 21:01:36,938 : INFO : test_callable : Successfully execution

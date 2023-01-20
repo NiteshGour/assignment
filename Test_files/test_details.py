@@ -1,12 +1,13 @@
-import paramiko
-
 from Source_data.details import details
 import pytest
 from Utils.Base_custom_logger import Base_custome_logger
+import allure
 
 
+@allure.story("SSH connection + memory usage check")
 class Test_callable(details, Base_custome_logger):
 
+    @allure.title("test_callable")
     @pytest.mark.cli
     def test_callable(self):
         log = self.logging()
