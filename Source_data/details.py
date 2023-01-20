@@ -11,7 +11,7 @@ class details:
 
     def memory_display(self):
         # Calling psutil.cpu_present() for 4 seconds
-        print('The CPU usage is: ', psutil.cpu_percent(4))
+        print('The CPU usage in % is: ', psutil.cpu_percent(4))
 
         # Getting loader15 minutes
         load1, load5, load15 = psutil.getloadavg()
@@ -26,7 +26,7 @@ class details:
 
         # Getting current date and time using now().
         current_time = datetime.datetime.now()
-        print("Time now at greenwich meridian is:", current_time)
+        print("Current time at Pune is:", current_time)
 
         # for memory details
         mem = virtual_memory()
@@ -44,5 +44,9 @@ class details:
         client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         client.connect(host, username=username, password=password)
         _stdin, _stdout, _stderr = client.exec_command("df")
-        print(_stdout.read().decode())
-        client.close()
+        process = psutil.Process(os.getpid())
+        print("--------------")
+        print(psutil.Process(os.getpid()).memory_info().rss / 1024 ** 2)
+        print("--------------")
+        #print(_stdout.read().decode())
+        # client.close()

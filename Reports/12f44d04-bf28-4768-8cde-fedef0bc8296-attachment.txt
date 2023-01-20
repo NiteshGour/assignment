@@ -1,0 +1,6 @@
+[32mINFO    [0m test_callable:test_details.py:13 Memory file execution is started
+[32mINFO    [0m test_callable:test_details.py:16 ssh connection of vm
+[32mINFO    [0m test_callable:test_details.py:18 ssh connection establish
+[32mINFO    [0m test_callable:test_details.py:24 Memory size in % is - 50.1
+[32mINFO    [0m test_callable:test_details.py:25 Memory is in the range
+[32mINFO    [0m test_callable:test_details.py:26 Successfully execution

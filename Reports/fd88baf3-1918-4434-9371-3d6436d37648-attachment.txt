@@ -1,0 +1,15 @@
+The CPU usage in % is:  15.0
+The CPU usage is :  0.0
+RAM memory % used: 50.2
+RAM Used (GB): 17.071108096
+Current time at Pune is: 2023-01-20 14:32:04.291916
+svmem(total=33998262272, available=16927154176, percent=50.2, used=17071108096, free=16927154176)
+--------------
+48.0078125
+--------------
+The CPU usage in % is:  15.9
+The CPU usage is :  0.0
+RAM memory % used: 50.1
+RAM Used (GB): 17.032380416
+Current time at Pune is: 2023-01-20 14:32:08.594972
+svmem(total=33998262272, available=16965881856, percent=50.1, used=17032380416, free=16965881856)
